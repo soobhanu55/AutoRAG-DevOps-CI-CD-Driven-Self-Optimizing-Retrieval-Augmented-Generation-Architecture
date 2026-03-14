@@ -28,4 +28,8 @@ EXPOSE 8501
 # For simplicity, we create a small bash script inline to run both if needed,
 # or we just rely on docker-compose for multi-container deployments.
 # Let's provide a script to run FastAPI by default.
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Make the script executable
+RUN chmod +x start.sh
+
+# Run both services
+CMD ["./start.sh"]

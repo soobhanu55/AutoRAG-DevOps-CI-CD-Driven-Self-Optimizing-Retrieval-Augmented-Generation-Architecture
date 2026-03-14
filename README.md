@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auto-RAG-Devops
 
 An autonomous Retrieval-Augmented Generation (RAG) system that automatically evaluates and improves its own retrieval pipeline.
@@ -137,3 +138,6 @@ curl -X 'POST' \
   "top_k": 5
 }'
 ```
+=======
+# AutoRAG-DevOps-CI-CD-Driven-Self-Optimizing-Retrieval-Augmented-Generation-Architecture
+>>>>>>> 15c579369339e093ae4cdc0a98bf23e8fca9322f
